@@ -1,0 +1,141 @@
+body {
+  background-color: hsl(234, 17%, 12%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+    width: 90rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 0.875rem;
+    background-image: url('images/bg-stars.svg'), url('images/pattern-hills.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    height: 47rem;
+    color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title{
+  margin-top: 6rem;
+  font-size: 2rem;
+	margin-left: 27rem;
+}
+
+.opac{
+	opacity: 0.5;
+}
+
+.box{
+	height: 10rem;
+	width: 10rem;
+}
+
+.bot{
+  display: flex;
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 0px 0px 10px 10px;
+  clip-path: polygon(
+    0 10%,
+    10% 0,
+    90% 0,
+    100% 10%,
+    100% 90%,
+    100% 100%,
+    0% 100%,
+    0% 90%,
+    0% 0%
+  );
+}
+
+.top{
+  display: flex;
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+  background-color: hsl(235, 14%, 17%);
+  border-radius: 10px 10px 0px 0px;
+  overflow:hidden;
+  clip-path: polygon(
+    0 0%,
+    90% 0,
+    100% 0,
+    100% 10%,
+    100% 90%,
+    90% 100%,
+    10% 100%,
+    0% 90%,
+    0% 10%
+  );
+}
+
+p{
+  margin-left: 5.5rem;
+}
+
+.days p{
+  margin-left: 26.9rem;
+}
+
+.box p{
+  display: flex;
+  position: relative;
+  font-size: 5rem;
+  margin-left: -10rem;
+  margin-top: 26px;
+  color: hsl(345, 95%, 68%);
+  width: 10rem;
+  justify-content: center;
+}
+
+.spacstart{
+  margin-left: 23rem;
+}
+
+.bwspace{
+  margin-left: 2rem;
+}
+
+.img{
+  margin-left: 42rem;
+  margin-top: 14rem;
+}
+
+.time{
+  margin-top: 6rem;
+}
+
+.imgbw{
+  margin-left: 2rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+img:hover{
+  filter: grayscale(100%);
+}
+
+.last{
+  margin-top: 2rem;
+}
+
+.last a{
+  color: bisque;
+}
